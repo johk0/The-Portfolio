@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import "./home.css";
 import SocialLinks from "./SocialLinks";
 import ScrollDown from "./scrollDown";

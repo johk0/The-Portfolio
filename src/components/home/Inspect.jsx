@@ -14,7 +14,7 @@ const Inspect = ({ state }) => {
 					(event.metaKey && event.altKey && event.keyCode === 67) // Cmd+Option+C (Mac)
 				) {
 					swal.fire({
-						title: "You can't you'ar not Joe!",
+						title: "You can't you're not Joe!",
 						icon: "error",
 						text: "This website is protected by the developer to prevent unauthorized access.",
 					});

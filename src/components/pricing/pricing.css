@@ -1,0 +1,120 @@
+.pricing__container {
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 20px;
+}
+
+.pricing__item {
+	padding: 1.875rem 2.5rem;
+	background-color: var(--container-color);
+	text-align: center;
+	border-radius: var(--border-radius);
+	box-shadow: var(--shadow);
+}
+
+.pricing__plan {
+	margin: 1.25rem 0;
+	font-size: var(--h2-font-size);
+	text-transform: capitalize;
+}
+
+.pricing__title,
+.pricing__support {
+	margin-bottom: 1rem;
+}
+
+.price {
+	font-size: var(--h1-font-size);
+	font-weight: var(--font-bold);
+}
+
+.price em {
+	font-style: normal;
+	font-size: var(--small-font-size);
+	margin-right: 0.5rem;
+	vertical-align: super;
+}
+
+.price span {
+	font-size: var(--normal-font-size);
+	font-weight: 400;
+	margin-right: 0.75rem;
+}
+
+.pricing__item .btn {
+	margin-top: 1.25rem;
+}
+/* .pricing__item {
+	grid-row: span 1;
+} */
+.pricing__item.special {
+	padding: 3.4rem 2.5rem;
+	position: relative;
+	z-index: 1;
+	/* grid-row: span 2; */
+	margin-top: -60px;
+	transform: translateY(30px);
+}
+
+.badge {
+	position: absolute;
+	left: 2rem;
+	top: 0;
+	color: var(--title-color);
+	background-color: #ffd15c;
+	font-weight: var(--font-bold);
+	transform: rotate(-180deg);
+	writing-mode: vertical-lr;
+	padding: 0.75rem 0.25rem;
+	font-size: var(--small-font-size);
+	border-top-right-radius: var(--border-radius);
+	border-top-left-radius: var(--border-radius);
+}
+
+.advatages {
+	text-align: left;
+	padding: 0.5rem 0;
+	margin-bottom: 1.25rem;
+}
+.advatages p:not(:last-child) {
+	border-bottom: 1px solid #eee;
+}
+.advatages p {
+	width: 100%;
+	padding: 0.5rem 0;
+}
+
+.custom__order {
+	text-align: center;
+	margin-top: 6.25rem;
+}
+.custom__order a {
+	width: 300px;
+}
+
+@media screen and (max-width: 1024px) {
+	.pricing__container {
+		grid-template-columns: repeat(2, 330px);
+		justify-content: center;
+		gap: 1.875rem;
+	}
+	.pricing__item.special {
+		padding: 1.875rem 2.5rem;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.pricing__container {
+		grid-template-columns: 310px;
+	}
+	.pricing__item.special {
+		transform: translateX(0);
+		margin-top: 0;
+		width: calc(100% + 10%);
+		margin-left: -5%;
+	}
+}
+@media screen and (max-width: 350px) {
+	.pricing__container {
+		grid-template-columns: 1fr;
+	}
+}

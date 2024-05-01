@@ -1,0 +1,247 @@
+{
+	"author": {
+		"name": "Youssef Ahmed",
+		"title": "Web Developer",
+		"image-1": "https://raw.githubusercontent.com/johk0/portoflio-data/main/assets/the%20author.svg",
+		"image-2": "https://raw.githubusercontent.com/johk0/portoflio-data/main/assets/logo.svg",
+		"image-3": "https://raw.githubusercontent.com/johk0/portoflio-data/main/assets/avatar-3.svg",
+		"cv": "https://github.com/johk0/portoflio-data/raw/main/Front-End%20Developer.pdf",
+		"jobTitle": "Web Developer",
+		"imageName": "avater-1",
+		"inspect": "true",
+		"facebook": "https://www.facebook.com/johk.69",
+		"linkedIn": "https://www.linkedin.com/in/youssefea",
+		"whatsapp": "https://wa.me/201229254999?text=Hello",
+		"instagram": "https://www.instagram.com/johk0"
+	},
+	"skills": [
+		{
+			"Web Development": {
+				"percentage": 99,
+				"color": "rgb(255, 76, 96)"
+			}
+		},
+		{
+			"UI & UX Design": {
+				"percentage": 85,
+				"color": "rgb(108, 108, 229)"
+			}
+		},
+		{
+			"Branding": {
+				"percentage": 92,
+				"color": "rgb(225,209,92)"
+			}
+		}
+	],
+	"about": [
+		{
+			"aboutInfo": {
+				"projectsCompleted": 52,
+				"cupsOfCoffee": 837,
+				"satisfiedClients": 16,
+				"nomineesWinner": 12
+			}
+		}
+	],
+	"services": [
+		{
+			"id": 1,
+			"title": "UI/UX design",
+			"image": "https://raw.githubusercontent.com/johk0/portoflio-data/main/assets/service-1.svg",
+			"imageName": "",
+			"description": "I specialize in creating intuitive and visually appealing user interfaces and experiences that enhance user engagement and satisfaction."
+		},
+		{
+			"id": 2,
+			"title": "Web Development",
+			"image": "https://raw.githubusercontent.com/johk0/portoflio-data/main/assets/service-2.svg",
+			"imageName": "",
+			"description": "With expertise in modern web technologies, I develop responsive and scalable web applications tailored to meet client needs and objectives."
+		},
+		{
+			"id": 3,
+			"title": "Branding Identity",
+			"image": "https://raw.githubusercontent.com/johk0/portoflio-data/main/assets/service-3.svg",
+			"imageName": "service-3",
+			"description": "Crafting unique and memorable brand identities that resonate with target audiences and differentiate businesses from competitors."
+		}
+	],
+	"experience": [
+		{
+			"id": 3,
+			"category": "experience",
+			"icon": "icon-graduation",
+			"year": "October 2023 - November 2024",
+			"company": "NASA",
+			"logo": "https://raw.githubusercontent.com/johk0/portoflio-data/main/assets/NASA_logo.svg",
+			"title": "Software Manager",
+			"desc": "Led a team in developing an educational game in collaboration with NASA, aimed at teaching children about space and the solar system using authentic NASA resources."
+		},
+		{
+			"id": 2,
+			"category": "experience",
+			"icon": "icon-briefcase",
+			"year": "2023 April - present",
+			"company": "Upwork",
+			"logo": "https://raw.githubusercontent.com/johk0/portoflio-data/main/assets/upwork_logo.svg",
+			"title": "Front-End Developer",
+			"desc": "Developed responsive and interactive front-end solutions, translating design mockups into functional web interfaces."
+		},
+		{
+			"id": 1,
+			"category": "education",
+			"icon": "icon-graduation",
+			"year": "septemper 2022 - september 2027",
+			"company": "Faculty of Engineering - Helwan University",
+			"logo": "https://raw.githubusercontent.com/johk0/portoflio-data/main/assets/FEHU_logo.svg",
+			"title": "Engineering Student @ HU",
+			"desc": "Focused on critical and logic thinking, learning computer, electrical and mechancial skills and developing problem-solving skills."
+		},
+		{
+			"id": 5,
+			"category": "education",
+			"icon": "icon-briefcase",
+			"year": "May 2023 - present",
+			"company": "IEEE",
+			"logo": "https://raw.githubusercontent.com/johk0/portoflio-data/main/assets/ieee_logo.svg",
+			"title": "Web Developer Vounteer",
+			"desc": "Collaborated with talents to design visually stunning and user-friendly websites, ensuring brand consistency and seamless user experiences."
+		},
+		{
+			"id": 4,
+			"category": "experience",
+			"icon": "icon-briefcase",
+			"year": "Jan 2022 - present",
+			"company": "Freelancer",
+			"logo": "https://raw.githubusercontent.com/johk0/portoflio-data/main/assets/Freelancer_logo.svg",
+			"title": "Web Designer",
+			"desc": "Collaborated with clients to design visually stunning and user-friendly websites, ensuring brand consistency and seamless user experiences."
+		}
+	],
+	"work": [
+		{
+			"id": 1,
+			"image": "https://raw.githubusercontent.com/johk0/portoflio-data/main/assets/work-1.svg",
+			"imageName": "",
+			"link": "https://concept-engs.com/",
+			"title": "Educational Platform",
+			"projectName": "concept academy website",
+			"category": "Web Development"
+		},
+		{
+			"id": 2,
+			"image": "https://raw.githubusercontent.com/johk0/portoflio-data/main/assets/work-2.svg",
+			"imageName": "",
+			"link": "https://johk0.github.io/Homepage/",
+			"projectName": "portfolio website",
+			"title": "portfolio website",
+			"category": "Web Development"
+		},
+		{
+			"id": 3,
+			"image": "https://raw.githubusercontent.com/johk0/portoflio-data/main/assets/work-3.svg",
+			"imageName": "",
+			"link": "https://johk0.github.io/nasa/",
+			"projectName": "Game Website",
+			"title": "Game Website",
+			"category": "Web Development"
+		},
+
+		{
+			"id": 4,
+			"image": "https://raw.githubusercontent.com/johk0/portoflio-data/main/assets/work-4.svg",
+			"imageName": "",
+			"link": "https://johk0.github.io/hung-man-game/",
+			"projectName": "Hang Man Game",
+			"title": "Hang Man Game",
+			"category": "Web Development"
+		},
+
+		{
+			"id": 5,
+			"image": "https://raw.githubusercontent.com/johk0/portoflio-data/main/assets/work-5.svg",
+			"imageName": "",
+			"link": "https://johk0.github.io/Landing-Page/",
+			"title": "portfolio website",
+			"category": "Web Development"
+		},
+
+		{
+			"id": 6,
+			"image": "https://raw.githubusercontent.com/johk0/portoflio-data/main/assets/work-6.svg",
+			"imageName": "",
+			"link": "#",
+			"title": "Game Store App Concept",
+			"category": "Creative"
+		}
+	],
+	"pricing": [
+		{
+			"title": "basic",
+			"advantages": ["1 week support", "simple website", "5 email addresses"],
+			"disadvantages": ["no dashboard"],
+			"price": 100,
+			"discount": ["Eid El-Eftar", 10],
+			"image": "https://raw.githubusercontent.com/johk0/portoflio-data/main/assets/price-1.svg"
+		},
+		{
+			"title": "premium",
+			"advantages": [
+				"1 month support",
+				"professional website",
+				"10 email addresses"
+			],
+			"disadvantages": ["no dashboard"],
+			"price": 200,
+			"discount": ["Eid El-Eftar", 10],
+			"image": "https://raw.githubusercontent.com/johk0/portoflio-data/main/assets/price-2.svg"
+		},
+		{
+			"title": "ultimate",
+			"advantages": [
+				"1 year support",
+				"professional website",
+				"5 email addresses",
+				"dashboard"
+			],
+			"price": 250,
+			"discount": ["Eid El-Eftar", 10],
+			"image": "https://raw.githubusercontent.com/johk0/portoflio-data/main/assets/price-3.svg"
+		}
+	],
+	"reviews": [
+		{
+			"id": 1,
+			"image": "https://raw.githubusercontent.com/johk0/portoflio-data/main/assets/avatar-2.svg",
+			"imageName": "reviewer-1",
+			"title": "Eng. Mohamed Ahmed",
+			"subtitle": "Product designer at Dribble",
+			"comment": "Youssef's work is exemplary. His attention to detail and ability to translate ideas into compelling designs is remarkable. I highly recommend him for any design project."
+		},
+		{
+			"id": 2,
+			"image": "https://raw.githubusercontent.com/johk0/portoflio-data/main/assets/avatar-1.svg",
+			"imageName": "avater-1",
+			"title": "Eng. Ahmed sakr",
+			"subtitle": "Senior Software Engineer",
+			"comment": "Working with Youssef was a pleasure. His professionalism and expertise in web development were evident throughout the project. I look forward to collaborating with him again."
+		},
+		{
+			"id": 3,
+			"image": "https://raw.githubusercontent.com/johk0/portoflio-data/main/assets/avatar-2.svg",
+			"imageName": "avater-2",
+			"title": "Sr. John Doe",
+			"subtitle": "Researcher at NASA",
+			"comment": "Youssef's contributions to our project were invaluable. His dedication and problem-solving skills significantly enhanced the final product. I would recommend him without hesitation."
+		},
+		{
+			"id": 4,
+			"image": "https://raw.githubusercontent.com/johk0/portoflio-data/main/assets/avatar-3.svg",
+			"imageName": "avater-3",
+			"title": "Eng. Mohab",
+			"subtitle": "Product Manager",
+			"comment": "Youssef consistently delivered high-quality work and exceeded our expectations. His professionalism and creativity make him an asset to any team."
+		}
+	]
+}

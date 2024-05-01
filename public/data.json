@@ -1,0 +1,218 @@
+{
+	"author": {
+		"name": "Youssef Ahmed",
+		"title": "Front End Developer",
+		"image-1": "https://raw.githubusercontent.com/johk0/portoflio-data/main/assets/avatar-1.svg",
+		"image-2": "https://raw.githubusercontent.com/johk0/portoflio-data/main/assets/avatar-2.svg",
+		"image-3": "https://raw.githubusercontent.com/johk0/portoflio-data/main/assets/avatar-3.svg",
+		"imageName": "avater-1"
+	},
+	"skills": [
+		{
+			"Web Development": {
+				"precentage": 99,
+				"color": "rgb(255, 76, 96)"
+			}
+		},
+		{
+			"UI & UX Design": {
+				"precentage": 85,
+				"color": "rgb(108, 108, 229)"
+			}
+		},
+		{
+			"Branding": {
+				"precentage": 92,
+				"color": "rgb(225,209,92)"
+			}
+		}
+	],
+	"about": [
+		{
+			"aboutInfo": {
+				"project complete": 198,
+				"cup of coffee": 837,
+				"satisfied clients": 16,
+				"nominees winner": 12
+			}
+		}
+	],
+	"services": [
+		{
+			"id": 1,
+			"title": "UI/UX design",
+			"image": "https://raw.githubusercontent.com/johk0/portoflio-data/main/assets/service-1.svg",
+			"imageName": "",
+			"description": "Lorem ipsum dolor sit amet consectetuer adipiscing elit         aenean commodo ligula eget."
+		},
+		{
+			"id": 2,
+			"title": "Web Development",
+			"image": "https://raw.githubusercontent.com/johk0/portoflio-data/main/assets/service-2.svg",
+			"imageName": "",
+			"description": "Lorem ipsum dolor sit amet consectetuer adipiscing elit         aenean commodo ligula eget."
+		},
+		{
+			"id": 3,
+			"title": "Photography",
+			"image": "https://raw.githubusercontent.com/johk0/portoflio-data/main/assets/service-3.svg",
+			"imageName": "service-3",
+			"description": "Lorem ipsum dolor sit amet consectetuer adipiscing elit         aenean commodo ligula eget."
+		}
+	],
+	"experience": [
+		{
+			"id": 1,
+			"category": "education",
+			"icon": "icon-graduation",
+			"year": "2019 - present",
+			"title": "Academic Degree",
+			"desc": "Lorem ipsum dolor sit amet quo ei simul congue exerci     ad nec admodum perfecto."
+		},
+		{
+			"id": 2,
+			"category": "education",
+			"icon": "icon-graduation",
+			"year": "2013 - 2017",
+			"title": "Bachelor's Degree",
+			"desc": "Lorem ipsum dolor sit amet quo ei simul congue exerci     ad nec admodum perfecto."
+		},
+		{
+			"id": 3,
+			"category": "education",
+			"icon": "icon-graduation",
+			"year": "2009 - 2013",
+			"title": "Honours Degree",
+			"desc": "Lorem ipsum dolor sit amet quo ei simul congue exerci     ad nec admodum perfecto."
+		},
+		{
+			"id": 4,
+			"category": "experience",
+			"icon": "icon-briefcase",
+			"year": "2019 - present",
+			"title": "Web Designer",
+			"desc": "Lorem ipsum dolor sit amet quo ei simul congue exerci     ad nec admodum perfecto."
+		},
+		{
+			"id": 5,
+			"category": "experience",
+			"icon": "icon-briefcase",
+			"year": "2013 - 2017",
+			"title": "Front-End Developer",
+			"desc": "Lorem ipsum dolor sit amet quo ei simul congue exerci     ad nec admodum perfecto."
+		},
+		{
+			"id": 6,
+			"category": "experience",
+			"icon": "icon-briefcase",
+			"year": "2009 - 2013",
+			"title": "Back-End Developer",
+			"desc": "Lorem ipsum dolor sit amet quo ei simul congue exerci     ad nec admodum perfecto."
+		}
+	],
+	"work": [
+		{
+			"id": 1,
+			"image": "https://raw.githubusercontent.com/johk0/portoflio-data/main/assets/work-1.svg",
+			"imageName": "",
+			"link": "#",
+			"title": "Project Management Illustration",
+			"category": "Design"
+		},
+		{
+			"id": 2,
+			"image": "https://raw.githubusercontent.com/johk0/portoflio-data/main/assets/work-2.svg",
+			"imageName": "",
+			"link": "#",
+			"title": "Guest App Walkthrough Screens",
+			"category": "Art"
+		},
+		{
+			"id": 3,
+			"image": "https://raw.githubusercontent.com/johk0/portoflio-data/main/assets/work-3.svg",
+			"imageName": "",
+			"link": "#",
+			"title": "Delivery App Wireframe",
+			"category": "Branding"
+		},
+
+		{
+			"id": 4,
+			"image": "https://raw.githubusercontent.com/johk0/portoflio-data/main/assets/work-4.svg",
+			"imageName": "",
+			"link": "#",
+			"title": "Onboarding Motivation",
+			"category": "Design"
+		},
+
+		{
+			"id": 5,
+			"image": "https://raw.githubusercontent.com/johk0/portoflio-data/main/assets/work-5.svg",
+			"imageName": "",
+			"link": "#",
+			"title": "iMac Mockup Design",
+			"category": "Creative"
+		},
+
+		{
+			"id": 6,
+			"image": "https://raw.githubusercontent.com/johk0/portoflio-data/main/assets/work-6.svg",
+			"imageName": "",
+			"link": "#",
+			"title": "Game Store App Concept",
+			"category": "Art"
+		}
+	],
+	"pricing": [
+		{
+			"title": "basic",
+			"advantages": ["1 week support", "simple website", "5 email addresses"],
+			"disadvantages": ["no dashboard"],
+			"price": 100,
+			"discount": ["Eid El-Eftar", 10],
+			"image": "https://raw.githubusercontent.com/johk0/portoflio-data/main/assets/price-1.svg"
+		},
+		{
+			"title": "premium",
+			"advantages": [
+				"1 month support",
+				"professional website",
+				"10 email addresses"
+			],
+			"disadvantages": ["no dashboard"],
+			"price": 200,
+			"discount": ["Eid El-Eftar", 10],
+			"image": "https://raw.githubusercontent.com/johk0/portoflio-data/main/assets/price-2.svg"
+		},
+		{
+			"title": "ultimate",
+			"advantages": [
+				"1 year support",
+				"professional website",
+				"5 email addresses",
+				"dashboard"
+			],
+			"price": 250,
+			"discount": ["Eid El-Eftar", 10],
+			"image": "https://raw.githubusercontent.com/johk0/portoflio-data/main/assets/price-3.svg"
+		}
+	],
+	"reviews": [
+		{
+			"id": 1,
+			"image": "reviwer-1",
+			"imageName": "",
+			"title": "John Doe",
+			"subtitle": "Product designer at Dribble",
+			"comment": "I enjoy working with the theme and learn so much. You       guys make the process fun and interesting. Good luck! 👍"
+		},
+		{
+			"id": 2,
+			"image": "reviwer-2",
+			"imageName": "",
+			"title": "John Doe",
+			"subtitle": "Product designer at Dribble",
+			"comment": "I enjoy working with the theme and learn so much. You       guys make the process fun and interesting. Good luck! 👍"
+		}
+	]
+}

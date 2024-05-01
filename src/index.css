@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+
+/* css golable vars */
+:root {
+	/*================= Colors =================*/
+	/* colors mode hsl (hue,saturation , ligthness) */
+	--first-color: #00aeef;
+	/* #00AEEF */
+	--second-color: antiquewhite; /* dosen't used */
+	--third-color: hsl(43, 100%, 68%);
+	--title-color: hsl(244, 24%, 26%);
+	--dark-color: #212728;
+	--text-color: hsl(244, 16%, 43%);
+	--body-color: hsl(258, 60%, 98%);
+	--container-color: #fff;
+
+	/* service color */
+
+	--service-first-color: rgb(108, 108, 229);
+	--service-first-shadow-color: rgb(108, 108, 299, 0.5);
+
+	/* --service-second-color: rgb(255, 165, 0);
+	--service-second-shadow-color: rgb(255, 165, 0, 0.5); */
+	--service-second-color: rgb(249, 215, 76);
+	--service-second-shadow-color: rgb(249, 215, 76, 0.5);
+
+	--service-third-color: rgb(249, 123, 139);
+	--service-third-shadow-color: rgb(249, 123, 139, 0.5);
+
+	/* ================= font and typography ================= */
+	/* 1rem = 16px */
+	--body-font: "Poppins", sans-serif;
+	--h1-font-size: 2.5rem;
+	--h2-font-size: 1.5rem;
+	--h3-font-size: 1.25rem;
+	--normal-font-size: 1rem;
+	--small-font-size: 0.875rem;
+	--smaller-font-size: 0.813rem;
+
+	/* ================= font weight ================= */
+	--font-medium: 500;
+	--font-semibold: 600;
+	--font-bold: 700;
+	/* ================= box shadow ================= */
+	--shadow: 0 5px 20px 0px rgb(69 67 96 / 10%);
+	/* ================= border radius ================= */
+	--border-radius: 20px;
+	--sidebar-size: 0;
+}
+/* ================= responsive typography ================= */
+@media screen and (max-width: 1024px) {
+	:root {
+		--h1-font-size: 1.75rem;
+		--h2-font-size: 1.25rem;
+		--h3-font-size: 1rem;
+		--normal-font-size: 0.938rem;
+		--small-font-size: 0.813rem;
+		--smaller-font-size: 0.75rem;
+	}
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html {
+	scroll-behavior: smooth;
+}
+body,
+button,
+input,
+textarea {
+	font-family: var(--body-font) !important;
+	font-size: var(--normal-font-size) !important;
+}
+body {
+	background-color: var(--body-color) !important;
+	line-height: 1.7 !important;
+	color: var(--text-color) !important;
+}
+h1,
+h2,
+h3 {
+	color: var(--title-color) !important;
+	font-weight: var(--font-semibold) !important;
+}
+ul {
+	list-style: none !important;
+}
+a {
+	text-decoration: none !important;
+}
+button {
+	cursor: pointer;
+	border: none;
+	outline: none;
+}
+img {
+	max-width: 100%;
+	height: auto;
+	vertical-align: middle;
+}
+.container {
+	max-width: 1080px !important;
+	padding-left: 15px !important;
+	padding-right: 15px !important;
+	margin: 0 auto !important;
+}
+.grid {
+	display: grid !important;
+}
+.section {
+	padding-top: 7rem !important;
+	padding-bottom: 2rem !important;
+}
+.section__title {
+	font-size: var(--h1-font-size) !important;
+	margin-left: 0.875rem !important;
+	font-weight: var(--font-bold) !important;
+	position: relative !important;
+	margin-bottom: 3.75rem !important;
+}
+.section__title::before {
+	content: "";
+	background: url("./assets/dots-bg.svg");
+	height: 2.25rem;
+	width: 2.25rem;
+	position: absolute;
+	left: -0.875rem;
+	top: -0.875rem;
+}
+.btn {
+	padding: 0.75rem 2rem !important;
+	line-height: 1 !important;
+	border-radius: 1.875rem !important;
+	box-shadow: 0 0 1px rgb(0, 0, 0 / 0%) !important;
+	border: 1px solid transparent !important;
+	color: var(--container-color) !important;
+	display: inline-block !important;
+	background-color: var(--first-color) !important;
+	font-weight: var(--font-bold) !important;
+	transition: 0.3s !important;
+}
+.btn:hover {
+	animation: button-push 0.3s linear 1;
+	background-color: hsl(188.57deg 9.59% 14.31%);
+}
+@keyframes button-push {
+	0% {
+		transform: scale(1);
+	}
+	50% {
+		transform: scale(0.8);
+	}
+	100% {
+		transform: scale(1);
+	}
+}

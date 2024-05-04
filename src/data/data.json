@@ -34,61 +34,61 @@
 			}
 		}
 	],
-	"technologies": [
+	"Technologies": [
 		{
 			"id": 1,
 			"title": "HTML5",
-			"image": "https://raw.githubusercontent.com/johk0/The-Portfolio/main/src/assets/technologies/html5.svg"
+			"image": "https://raw.githubusercontent.com/johk0/The-Portfolio/main/src/assets/Technologies/html5.svg"
 		},
 		{
 			"id": 2,
 			"title": "CSS3",
-			"image": "https://raw.githubusercontent.com/johk0/The-Portfolio/main/src/assets/technologies/css3.svg"
+			"image": "https://raw.githubusercontent.com/johk0/The-Portfolio/main/src/assets/Technologies/css3.svg"
 		},
 		{
 			"id": 3,
 			"title": "javascript",
-			"image": "https://raw.githubusercontent.com/johk0/The-Portfolio/main/src/assets/technologies/javascript.svg"
+			"image": "https://raw.githubusercontent.com/johk0/The-Portfolio/main/src/assets/Technologies/javascript.svg"
 		},
 		{
 			"id": 4,
 			"title": "git",
-			"image": "https://raw.githubusercontent.com/johk0/The-Portfolio/main/src/assets/technologies/git.svg"
+			"image": "https://raw.githubusercontent.com/johk0/The-Portfolio/main/src/assets/Technologies/git.svg"
 		},
 		{
 			"id": 5,
 			"title": "typescript",
-			"image": "https://raw.githubusercontent.com/johk0/The-Portfolio/main/src/assets/technologies/typescript.svg"
+			"image": "https://raw.githubusercontent.com/johk0/The-Portfolio/main/src/assets/Technologies/typescript.svg"
 		},
 		{
 			"id": 6,
 			"title": "reactjs",
-			"image": "https://raw.githubusercontent.com/johk0/The-Portfolio/main/src/assets/technologies/reactjs.svg"
+			"image": "https://raw.githubusercontent.com/johk0/The-Portfolio/main/src/assets/Technologies/reactjs.svg"
 		},
 		{
 			"id": 7,
 			"title": "redux",
-			"image": "https://raw.githubusercontent.com/johk0/The-Portfolio/main/src/assets/technologies/redux.svg"
+			"image": "https://raw.githubusercontent.com/johk0/The-Portfolio/main/src/assets/Technologies/redux.svg"
 		},
 		{
 			"id": 8,
 			"title": "bootstrap",
-			"image": "https://raw.githubusercontent.com/johk0/The-Portfolio/main/src/assets/technologies/bootstrap.svg"
+			"image": "https://raw.githubusercontent.com/johk0/The-Portfolio/main/src/assets/Technologies/bootstrap.svg"
 		},
 		{
 			"id": 9,
 			"title": "figma",
-			"image": "https://raw.githubusercontent.com/johk0/The-Portfolio/main/src/assets/technologies/figma.svg"
+			"image": "https://raw.githubusercontent.com/johk0/The-Portfolio/main/src/assets/Technologies/figma.svg"
 		},
 		{
 			"id": 10,
 			"title": "photoshop",
-			"image": "https://raw.githubusercontent.com/johk0/The-Portfolio/main/src/assets/technologies/photoshop.svg"
+			"image": "https://raw.githubusercontent.com/johk0/The-Portfolio/main/src/assets/Technologies/photoshop.svg"
 		},
 		{
 			"id": 11,
 			"title": "c++",
-			"image": "https://raw.githubusercontent.com/johk0/The-Portfolio/main/src/assets/technologies/c.svg"
+			"image": "https://raw.githubusercontent.com/johk0/The-Portfolio/main/src/assets/Technologies/c.svg"
 		}
 	],
 	"about": [

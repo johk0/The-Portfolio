@@ -16,6 +16,8 @@ import "swiper/css/pagination";
 import { useSelector } from "react-redux";
 const Technologies = () => {
 	const [slidesPerView, setSlidesPerView] = useState(2);
+	const technologies = useSelector((res) => res.data.technologies);
+	console.log(technologies[0].image);
 	return (
 		<div className="container section">
 			<Swiper
@@ -27,9 +29,14 @@ const Technologies = () => {
 				navigation={false}
 				modules={[Pagination, Navigation, EffectCoverflow, FreeMode]}
 				className="mySwiper">
-				<SwiperSlide>hi</SwiperSlide>
-				<SwiperSlide>hi</SwiperSlide>
-				<SwiperSlide>hi</SwiperSlide>
+				{technologies &&
+					technologies.map((ele) => {
+						return (
+							<SwiperSlide key={ele.id}>
+								<img src={ele.image} alt={ele.name} />
+							</SwiperSlide>
+						);
+					})}
 			</Swiper>
 		</div>
 	);

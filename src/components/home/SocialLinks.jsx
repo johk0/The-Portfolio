@@ -3,7 +3,7 @@ import { useSelector } from "react-redux";
 
 const SocialLinks = () => {
 	const date = useSelector((state) => state.data?.author);
-	console.log(date);
+	// console.log(date);
 	return (
 		<div className="home__socials">
 			<a

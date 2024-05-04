@@ -26,16 +26,17 @@ const Testimonilas = () => {
 		const handleResize = () => {
 			if (window.innerWidth <= 768) {
 				setSlidesPerView(1);
+				console.log(window.innerWidth);
 			} else {
 				setSlidesPerView(2);
 			}
 		};
+		handleResize();
 		window.addEventListener("resize", handleResize);
 		return () => {
 			window.removeEventListener("resize", handleResize);
 		};
-	}, []);
-
+	}, [setSlidesPerView]);
 	// console.log(testimonialData);
 	return (
 		<section className="testimonails container section">

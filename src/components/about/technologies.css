@@ -1,8 +1,24 @@
+.tech-section {
+	margin-top: 5rem;
+}
 .tech-img {
 	width: 100px;
 	margin: 0 auto;
-	text-align: center;
+	display: flex;
 }
 .technologies .swiper.swiper-initialized.swiper-horizontal.mySwiper {
 	padding-bottom: 50px;
+}
+.technologies .swiper-slide {
+	transition: all 0.3s;
+}
+.technologies {
+	background-color: inset 0 0 0 2px #f3f3f3;
+	/* background-color: #1877f2; */
+	border: solid 1px var(--title-color);
+	box-shadow: var(--shadow);
+	border-radius: 2rem;
+	margin-top: 1.8rem !important;
+	padding-left: 0 !important;
+	padding-right: 0 !important;
 }

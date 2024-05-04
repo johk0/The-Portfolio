@@ -4,7 +4,7 @@ import jsonFile from "../../data/data.json";
 export const fetchData = createAsyncThunk("fetchData", async () => {
 	// const respone = await fetch(jsonFile);
 	const respone = await fetch(
-		"https://raw.githubusercontent.com/johk0/portoflio-data/main/data.json"
+		"https://raw.githubusercontent.com/johk0/The-Portfolio/main/src/data/data.json"
 	);
 
 	const res = await respone.json();

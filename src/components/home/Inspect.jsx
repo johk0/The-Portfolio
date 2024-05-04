@@ -6,7 +6,7 @@ const Inspect = ({ state }) => {
 	const mySwal = withReactContent(swal);
 
 	useEffect(() => {
-		if (state === "true") {
+		if (!state === "true") {
 			function handleKeyDown(event) {
 				if (
 					(event.ctrlKey && event.keyCode === 67) || // Ctrl+C

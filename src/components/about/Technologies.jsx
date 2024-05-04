@@ -13,6 +13,7 @@ import "swiper/css/free-mode";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
+import { useSelector } from "react-redux";
 const Technologies = () => {
 	const [slidesPerView, setSlidesPerView] = useState(2);
 	return (

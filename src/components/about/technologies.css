@@ -1,0 +1,8 @@
+.tech-img {
+	width: 100px;
+	margin: 0 auto;
+	text-align: center;
+}
+.technologies .swiper.swiper-initialized.swiper-horizontal.mySwiper {
+	padding-bottom: 50px;
+}

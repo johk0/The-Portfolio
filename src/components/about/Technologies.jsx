@@ -1,5 +1,6 @@
 import React from "react";
 import { useState } from "react";
+import "./technologies.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import {
 	Navigation,
@@ -15,11 +16,11 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import { useSelector } from "react-redux";
 const Technologies = () => {
-	const [slidesPerView, setSlidesPerView] = useState(2);
-	const technologies = useSelector((res) => res.data.technologies);
-	console.log(technologies[0].image);
+	const [slidesPerView, setSlidesPerView] = useState(4);
+	const technologies = useSelector((res) => res.data.Technologies);
+	console.log(technologies);
 	return (
-		<div className="container section">
+		<div className="technologies container section">
 			<Swiper
 				grabCursor={true}
 				centeredSlides={true}
@@ -31,9 +32,10 @@ const Technologies = () => {
 				className="mySwiper">
 				{technologies &&
 					technologies.map((ele) => {
+						console.log(ele);
 						return (
 							<SwiperSlide key={ele.id}>
-								<img src={ele.image} alt={ele.name} />
+								<img src={ele.image} alt={ele.name} className="tech-img" />
 							</SwiperSlide>
 						);
 					})}
